@@ -11,16 +11,20 @@
 .navbar {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 50rem;
 }
 
 .links {
   display: flex;
-  justify-content: flex-end;
-
-
 }
+.link__item {
+  margin: 0 auto;
+  width: 5rem;
+}
+
 .navbar__logo {
-  margin-left: 7%;
 
 }
 
