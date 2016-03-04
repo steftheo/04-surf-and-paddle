@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .banner {
   max-width: auto;
-  height: 20rem;
+  height: 19rem;
   background-image: url(http://lorempixel.com/400/200);
 }
 
@@ -13,7 +14,8 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 50rem;
+  max-width: 55rem;
+  padding-top: 1rem;
 }
 
 .links {
@@ -32,23 +34,96 @@
   text-align: center;
   flex-direction: column;
   justify-content: center;
-  background: red;
-
 }
 
 .about {
-  color: blue;
+
 }
 
 .search {
-  color: red;
 
 }
 
 .title {
-
+  font-size: 60px;
+  color: white;
 }
 
 .subtitle {
+}
 
+/* Left Article */
+.left-article {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  justify-content: space-between;
+  max-width: 70rem;
+  margin-top: 3rem;
+  height: 25rem;
+}
+
+.article__heading {
+  font-weight: bolder;
+  font-size: 37px;
+  max-width: 50%;
+  color: #030a21;
+}
+
+.article__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 16rem;
+}
+
+.article__author-avatar {
+  border-radius: 50%;
+}
+
+.article__publish-date {
+  color: #a19ec1;
+  font-size: 12px;
+}
+
+.author__name-left {
+  font-size: 13px;
+}
+
+.article__text {
+  font-size: 14px;
+  max-width: 40%;
+}
+
+.article__text2 {
+  font-size: 14px;
+  max-width: 40%;
+}
+
+.article__quote {
+  font-size: 20px;
+  color: #6d94d7;
+  max-width: 30%;
+  margin: 1rem;
+}
+
+/* Right Article */
+.right-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  float: right;
+  margin-right: 5rem;
+  margin-top: -25rem;
+}
+
+.author__image-right {
+  border-radius: 50%;
+  padding-bottom: 0.5rem;
+}
+
+.author__social {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
