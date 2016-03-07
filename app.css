@@ -129,3 +129,39 @@
 }
 
 /* Footer */
+
+.title__footer {
+  text-align: center;
+  text-transform: capitalize;
+
+}
+.images__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.titles {
+  display: flex;
+  flex-direction: row;
+  margin-top: -3rem;
+  color: white;
+  justify-content: center;
+}
+
+.footer__title2 {
+  margin-left: 8rem;
+  max-width: 40%;
+}
+
+.footer__title3 {
+  margin-top: -0.5rem;
+  margin-left: 8rem;
+  max-width: 17%;
+}
+
+.footer__title4 {
+  margin-left: 3rem;
+  max-width: 30%;
+}
